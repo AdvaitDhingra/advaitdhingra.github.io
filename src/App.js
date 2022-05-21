@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import photo from './photo.jpg'
+import linkedin from "./icons8-linkedin-circled.gif"
+import email from './icons8-email-open-50.png'
+import twitter from './icons8-twitter.gif'
+import github from './icons8-github.gif'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src = {photo} className = "photo"/>
+      <h1>Advait Dhingra</h1>
+      <div>
+      <a href = "https://linkedin.com/in/advaitdhingra" target="_blank"><img src = {linkedin} style = {{
+        width: "30px"
+      }}/></a>
+      <a href = "mailto:advait.dhingra1006@gmail.com"><img src = {email} style = {{
+        width: "30px"
+      }}/></a>
+      <a href = "https://twitter.com/advaitdhingra" target="_blank"><img src = {twitter} style = {{
+        width: "30px"
+      }}/></a>
+      <a href = "https://github.com/advaitdhingra" target="_blank"><img src = {github} style = {{
+        width: "30px"
+      }}/></a>
+      </div>
     </div>
   );
 }
