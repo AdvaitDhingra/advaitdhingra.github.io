@@ -1,5 +1,5 @@
 import './App.css';
-import photo from './photo.jpg'
+import photo from './me.jpeg'
 import linkedin from "./icons8-linkedin-circled.gif"
 import email from './icons8-email-open-50.png'
 import twitter from './icons8-twitter.gif'
@@ -10,6 +10,8 @@ function App() {
     <div className="App">
       <img src = {photo} className = "photo"/>
       <h1>Advait Dhingra</h1>
+      <h2>Particle Physics Enthusiast</h2>
+      <h4>From Bonn, Federal Republic of Germany</h4>
       <div>
       <a href = "https://linkedin.com/in/advaitdhingra" target="_blank"><img src = {linkedin} style = {{
         width: "30px"
